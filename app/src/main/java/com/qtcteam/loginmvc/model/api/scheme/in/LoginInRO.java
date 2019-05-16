@@ -1,12 +1,15 @@
-package com.qtcteam.loginmvc.model.scheme.in;
+package com.qtcteam.loginmvc.model.api.scheme.in;
+
+import com.google.gson.annotations.SerializedName;
 
 public class LoginInRO extends BaseInRO {
 
+    @SerializedName("username")
     private String username;
+    @SerializedName("password")
     private String password;
 
-    public LoginInRO(String applicationName, String username, String password) {
-        super(applicationName);
+    public LoginInRO(String username, String password) {
         this.username = username;
         this.password = password;
     }

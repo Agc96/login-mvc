@@ -1,17 +1,20 @@
 <resources>
     <string name="app_name">Login MVC</string>
+
     <!-- Inicio de sesión -->
     <string name="login_title">Inicio de sesión</string>
     <string name="login_input_username">Nombre de usuario</string>
     <string name="login_input_password">Contraseña</string>
     <string name="login_button_submit">Ingresar</string>
-    <string name="login_button_signup">Registrarse</string>
-    <!-- Registro de usuarios -->
-    <string name="signup_title">Registro de usuarios</string>
-    <string name="signup_input_username">Nombre de usuario</string>
-    <string name="signup_input_password">Contraseña</string>
-    <string name="signup_input_name">Nombres y apellidos</string>
-    <string name="signup_input_email">Correo electrónico</string>
-    <string name="signup_button_submit">Enviar</string>
-    <string name="signup_button_back">Regresar</string>
+    <string name="login_msg_username_empty">Ingrese su nombre de usuario.</string>
+    <string name="login_msg_password_empty">Ingrese su contraseña.</string>
+    <string name="login_msg_loading">Iniciando sesión…</string>
+    <string name="login_dialog_ok_title">Sesión iniciada</string>
+    <string name="login_dialog_ok_message">Nombres: %s\nCorreo electrónico: %s</string>
+
+    <!-- Mensajes de conexión al API REST -->
+    <string name="api_title_login">Error al iniciar sesión</string>
+    <string name="api_msg_http_code">Ocurrió un error desconocido.\nCódigo de error: %d</string>
+    <string name="api_msg_service_code">El servicio otorgó un error.\nCódigo de error: %d</string>
+    <string name="api_msg_response">El servicio no otorgó respuesta.</string>
 </resources>
