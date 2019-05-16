@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login MVC</string>
+    <!-- Inicio de sesión -->
+    <string name="login_title">Inicio de sesión</string>
+    <string name="login_input_username">Nombre de usuario</string>
+    <string name="login_input_password">Contraseña</string>
+    <string name="login_button_submit">Ingresar</string>
+    <string name="login_button_signup">Registrarse</string>
+    <!-- Registro de usuarios -->
+    <string name="signup_title">Registro de usuarios</string>
+    <string name="signup_input_username">Nombre de usuario</string>
+    <string name="signup_input_password">Contraseña</string>
+    <string name="signup_input_name">Nombres y apellidos</string>
+    <string name="signup_input_email">Correo electrónico</string>
+    <string name="signup_button_submit">Enviar</string>
+    <string name="signup_button_back">Regresar</string>
+</resources>
