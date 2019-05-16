@@ -1,2 +1,2 @@
 # login-mvc
-Demostration of the MVC antipattern for choosing an Android architecture
+Demostration of the MVC architecture antipattern in Android project development
