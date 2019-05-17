@@ -4,15 +4,15 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(tableName = "USER")
+@Entity(tableName = "USUARIO")
 public class User {
 
-    @PrimaryKey
-    @ColumnInfo(name = "ID")
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "ID_USUARIO")
     private int userId;
-    @ColumnInfo(name = "NAMES")
+    @ColumnInfo(name = "NOMBRES")
     private String names;
-    @ColumnInfo(name = "EMAIL")
+    @ColumnInfo(name = "CORREO")
     private String email;
     @ColumnInfo(name = "USERNAME")
     private String username;

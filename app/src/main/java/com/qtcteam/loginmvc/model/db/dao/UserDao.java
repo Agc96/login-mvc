@@ -10,13 +10,16 @@ import com.qtcteam.loginmvc.model.db.entities.User;
 @Dao
 public interface UserDao {
 
-    @Query("SELECT * FROM USER WHERE USERNAME = :username AND PASSWORD = :password LIMIT 1")
+    @Query("SELECT * FROM USUARIO WHERE USERNAME = :username AND PASSWORD = :password LIMIT 1")
     User login(String username, String password);
 
+    @Query("SELECT COUNT(*) FROM USUARIO WHERE USERNAME = :username")
+    int countByUsername(String username);
+
     @Insert
-    void insertAll(User... usuarios);
+    void insert(User user);
 
     @Delete
-    void delete(User usuario);
+    void delete(User user);
 
 }
